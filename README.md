@@ -15,4 +15,4 @@
 * CA-Certificate (ca.pem): Download 'ca.pem' yang kami upload di repository kami
 
 ## Contoh pengguunaan:
-### mysql --user reviewer --password=cleanwaterandsanitation  --host mysql-110eb649-mohamadmalikfajarbaihaqi-c60c.j.aivencloud.com --port 28749 db_6_clean_water --ssl-ca='ca.pem'
+mysql --user reviewer --password=cleanwaterandsanitation  --host mysql-110eb649-mohamadmalikfajarbaihaqi-c60c.j.aivencloud.com --port 28749 db_6_clean_water --ssl-ca='ca.pem'
