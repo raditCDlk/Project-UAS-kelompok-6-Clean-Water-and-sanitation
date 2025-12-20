@@ -228,17 +228,9 @@ END$$
 DELIMITER ;
 
 -- =========================================
--- User & Privileges
--- =========================================
-DROP USER IF EXISTS 'cleanwateradm'@'%';
-CREATE USER 'cleanwateradm'@'%' IDENTIFIED BY 'SDGCLEANWATER';
-GRANT ALL PRIVILEGES ON `db_6_clean_water`.* TO 'cleanwateradm'@'%';
-
-FLUSH PRIVILEGES;
-
--- =========================================
 -- Restore Settings
 -- =========================================
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
